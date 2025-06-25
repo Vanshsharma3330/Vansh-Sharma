@@ -488,3 +488,100 @@ section {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;     /* Firefox */
 }
+
+/* --- Responsive improvements for Showcase Section --- */
+@media (max-width: 640px) {
+  .app-showcase {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .showcaselayout {
+    flex-direction: column !important;
+    gap: 2rem !important;
+  }
+  .first-project-wrapper {
+    width: 100% !important;
+    min-width: 0;
+  }
+  .first-project-wrapper .image-wrapper {
+    height: 220px !important;
+    min-height: 160px;
+  }
+  .first-project-wrapper .text-content h2 {
+    font-size: 1.25rem !important;
+  }
+  .project-list-wrapper {
+    flex-direction: column !important;
+    width: 100% !important;
+    gap: 1.5rem !important;
+    max-width: 100%;
+  }
+  .project-list-wrapper .image-wrapper {
+    height: 160px !important;
+    min-height: 120px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .project-list-wrapper h2 {
+    font-size: 1rem !important;
+    margin-top: 0.75rem !important;
+  }
+  .text-content p,
+  .project-list-wrapper p {
+    font-size: 0.95rem !important;
+  }
+  .timeline,
+  .gradient-line {
+    display: none !important;
+  }
+}
+
+/* --- Responsive improvements for Experience Section --- */
+@media (max-width: 640px) {
+  #experience {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .exp-card-wrapper {
+    flex-direction: column !important;
+    gap: 2rem !important;
+    align-items: stretch !important;
+  }
+  .timeline-wrapper {
+    position: static !important;
+    left: 0 !important;
+    margin-bottom: 1rem;
+    width: 100% !important;
+    height: 30px !important;
+    justify-content: flex-start !important;
+  }
+  .timeline {
+    position: static !important;
+    width: 4px !important;
+    height: 30px !important;
+    margin: 0 auto;
+    min-width: 4px;
+    min-height: 30px;
+  }
+  .gradient-line {
+    position: static !important;
+    width: 4px !important;
+    height: 30px !important;
+    margin: 0 auto;
+  }
+  .expText {
+    flex-direction: column !important;
+    gap: 1rem !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .expText h3 {
+    font-size: 1.1rem !important;
+  }
+  .expText p {
+    font-size: 0.95rem !important;
+  }
+  #experience .mt-32 {
+    margin-top: 1.5rem !important;
+  }
+}
