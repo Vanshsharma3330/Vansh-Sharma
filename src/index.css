@@ -585,3 +585,52 @@ section {
     margin-top: 1.5rem !important;
   }
 }
+
+/* --- Responsive improvements for Contact Section --- */
+@media (max-width: 640px) {
+  #contact {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .grid-12-cols {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem !important;
+  }
+  #contact .TitleHeader h2,
+  #contact .TitleHeader .sub {
+    font-size: 1.25rem !important;
+    margin-bottom: 0.5rem !important;
+  }
+  #contact .card-border {
+    max-width: 95vw !important;
+    margin: 0 auto !important;
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,0.10) !important;
+    padding: 0.5rem 0.75rem !important;
+  }
+  #contact form {
+    gap: 0.75rem !important;
+  }
+  #contact .cta-button {
+    margin-top: 0.5rem !important;
+  }
+  #contact input[type="text"],
+  #contact input[type="email"] {
+    min-height: 48px !important;
+    line-height: 1.4 !important;
+    padding-top: 0.85rem !important;
+    padding-bottom: 0.85rem !important;
+    font-size: 1rem !important;
+    display: block !important;
+    white-space: normal !important;
+  }
+  #contact input::placeholder {
+    white-space: normal !important;
+    overflow-wrap: break-word !important;
+    text-overflow: unset !important;
+    font-size: 0.98rem !important;
+    font-weight: 500 !important;
+    color: #e0e0e0 !important;
+    opacity: 1 !important;
+    line-height: 1.4 !important;
+  }
+}
