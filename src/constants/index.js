@@ -4,6 +4,10 @@ const navLinks = [
     link: "#work",
   },
   {
+    name: "Experience",
+    link: "#work-experience",
+  },
+  {
     name: "Education",
     link: "#experience",
   },
@@ -33,7 +37,7 @@ const words = [
 
 const counterItems = [
   {
-    text: "I'm a final-year Computer Science Engineering student with a strong foundation in full-stack web development and problem-solving. I've built several academic and personal projects using technologies like React, Node.js, Express, and MongoDB. With 175+ DSA problems solved and active participation in hackathons, I bring both technical skills and collaborative experience to the table. I'm passionate about learning, building scalable solutions, and continuously improving as a developer."
+    text: "I'm a final-year Computer Science Engineering student with a strong foundation in full-stack web development and problem-solving. I've built several academic and personal projects using technologies like Next.js, Node.js, Express.js, and MongoDB. With 200+ DSA problems solved and active participation in hackathons, I bring both technical expertise and collaborative experience to the table. I also worked as an IT Intern Trainee at Cadera Infotech Pvt. Ltd., where I contributed to the development and optimization of company websites, fixed UI bugs, improved application performance, and assisted in deploying projects on Vultr servers. I'm passionate about learning new technologies, building scalable web solutions, and continuously growing as a developer."
   }
 ];
 
@@ -111,6 +115,10 @@ const techStackImgs = [
   {
     name: "React",
     imgPath: "/images/logos/react.png",
+  },
+  {
+    name: "Next.js",
+    imgPath: "/images/logos/nextjs.png",
   },
   {
     name: "Node.js",
@@ -238,6 +246,21 @@ const expCards = [
   },
 ];
 
+const workExperience = [
+  {
+    imgPath: "/images/logos/cadera_logo.png",
+    title: "💼 IT Intern Trainee",
+    company: "Cadera Infotech Pvt. Ltd.",
+    date: "September 2025 - Present",
+    responsibilities: [
+      "Fixed UI components, resolved front-end bugs, and improved cross-browser compatibility to enhance user experience.",
+      "Assisted in testing and debugging existing modules to ensure stability and smoother performance across pages.",
+      "Worked on application performance optimization by removing redundant scripts and unnecessary content, reducing page load time significantly.",
+      "Supported the deployment process of web applications on Vultr servers, ensuring successful setup and uptime."
+    ],
+  },
+];
+
 const expLogos = [
   {
     name: "logo1",
@@ -327,6 +350,7 @@ export {
   logoIconsList,
   counterItems,
   expCards,
+  workExperience,
   expLogos,
   testimonials,
   socialImgs,

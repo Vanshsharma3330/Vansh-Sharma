@@ -75,7 +75,7 @@ const Experience = () => {
                       <h3 className="text-xl font-bold text-white">Bachelor of Engineering in Computer Science</h3>
                       <p className="text-gray-400 mb-2">Chitkara University, Punjab</p>
                       <p className="text-white-50 mb-2">2022 – 2026</p>
-                      <p className="text-white-50 mb-2">CGPA: 8.73</p>
+                      <p className="text-white-50 mb-2">CGPA: 8.82</p>
                       <p className="text-[#839CB5] italic mb-2">Relevant Coursework:</p>
                       <p className="text-white-50 mb-4">
                         Algorithms & Data Structures, Operating Systems, DBMS, Full Stack Web Development, Cloud Computing, Object Oriented Programming, Computer Architecture
