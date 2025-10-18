@@ -3,10 +3,10 @@ const navLinks = [
     name: "Projects",
     link: "#work",
   },
-  {
-    name: "Experience",
-    link: "#work-experience",
-  },
+  // {
+  //   name: "Experience",
+  //   link: "#work-experience",
+  // },
   {
     name: "Education",
     link: "#experience",
@@ -109,6 +109,10 @@ const techStackImgs = [
     imgPath: "/images/logos/c.png",
   },
   {
+    name: "Python",
+    imgPath: "/images/logos/python.png",
+  },
+  {
     name: "MongoDB",
     imgPath: "/images/logos/mongodb.png",
   },
@@ -135,6 +139,10 @@ const techStackImgs = [
   {
     name: "Firebase",
     imgPath: "/images/logos/firebase.png",
+  },
+  {
+    name: "AWS",
+    imgPath: "/images/logos/aws.png",
   },
   {
     name: "HTML",
