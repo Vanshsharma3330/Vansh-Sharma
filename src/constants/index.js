@@ -37,7 +37,7 @@ const words = [
 
 const counterItems = [
   {
-    text: "I'm a final-year Computer Science Engineering student with a strong foundation in full-stack web development and problem-solving. I've built several academic and personal projects using technologies like Next.js, Node.js, Express.js, and MongoDB. With 200+ DSA problems solved and active participation in hackathons, I bring both technical expertise and collaborative experience to the table. I also worked as an IT Intern Trainee at Cadera Infotech Pvt. Ltd., where I contributed to the development and optimization of company websites, fixed UI bugs, improved application performance, and assisted in deploying projects on Vultr servers. I'm passionate about learning new technologies, building scalable web solutions, and continuously growing as a developer."
+    text: "I'm a final-year Computer Science Engineering student with a strong foundation in full-stack web development and problem-solving. I've built several academic and personal projects using technologies like Next.js, Node.js, Express.js, and MongoDB. With 200+ DSA problems solved and active participation in hackathons, I bring both technical expertise and collaborative experience to the table. I'm passionate about learning new technologies, building scalable web solutions, and continuously growing as a developer."
   }
 ];
 
